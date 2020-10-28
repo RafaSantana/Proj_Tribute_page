@@ -17,10 +17,11 @@
 * **HTML5 e CSS3** - Estrutura semântica da página e estilização .
 * **VS Code** - editor de texto/IDE.
 * **Git** - versionador do projeto.
-* **WSL2** - Repositório local usando virtualização WSL nativo do Windows 10, virtualizando GNU/Linux Ubuntu 20.04 LTS (no terminal).
+* **GNU/Linux Ubuntu 20.04 LTS** - Repositório local virtualizado em modo terminal usando WSL2 (Subsistema Windows para Linux).
 * **Github** - repositório remoto.
 
 &nbsp;
 
 ### *Layout feito no CorelDraw de como a página deve se parecer.*
+
 <img src="./assets/images/layout_page.jpg" width="500">
