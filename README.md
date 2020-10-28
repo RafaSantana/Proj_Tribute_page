@@ -22,6 +22,6 @@
 
 &nbsp;
 
-### *Layout feito no CorelDraw de como a página deve se parecer.*
+### *Layout em .jpg feito no CorelDraw*
 
 <img src="./assets/images/layout_page.jpg" width="500">
