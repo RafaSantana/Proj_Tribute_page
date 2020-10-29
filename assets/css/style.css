@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     color: #FFF;
     font-family: 'Work Sans', sans-serif;
@@ -19,92 +20,194 @@ body {
     width: 80%;
     max-width: 960px;
 }
+
 header h1 {
     font-family: 'Staatliches', cursive;
     font-size: 90px;
 }
+
 header h2 {
     line-height: 15px;
     text-align: justify;
     max-width: 430px;
 }
+
 header img {
     float: right;
 }
- p {
+
+p {
     text-align: justify;
     line-height: 20px;
     padding-top: 30px;
     padding-right: 15px;
 }
+
 .timeLine {
     padding-top: 40px;
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .timelineMain {
     margin-bottom: 30px;
 }
+
 .text {
     line-height: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
-.timelineBlock{
+
+.timelineBlock {
     align-items: center;
     display: flex;
 }
-.line{
+
+.line {
     width: 113px;
     height: 5px;
     background-color: #17AC77;
     border-radius: 3px;
 }
-.radios{
+
+.radios {
     border-radius: 10px;
     height: 20px;
     width: 20px;
     background-color: #17AC77;
 }
+
 .galery {
     margin-right: 40px;
     max-width: 920px;
-    height: 215px;
     border-top: 5px solid #60EA67;
     border-left: 5px solid #60EA67;
 }
+
 .galery h3 {
     text-transform: uppercase;
     font-size: 30px;
     font-style: italic;
     padding-left: 20px;
 }
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fotos img {
+    padding: 1%;
+    margin: 10px;
+    border: 3px solid #17AC77;
+}
+
+.fotos img:hover {
+    padding: 0;
+    border: 3px solid #7CA1AD;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.fotosEsquerda {
+    width: 25%;
+}
+
+.fotosDireita {
+    width: 25%;
+}
+
+.fotosEsquerda img {
+    max-width: 200px;
+}
+
+.fotoCentro img {
+    max-width: 400px;
+
+}
+
+.fotosDireita img {
+    max-width: 200px;
+}
+
 .link {
     font-size: 18px;
     padding: 10px;
     text-align: end;
 }
-.link a, a:visited {
+
+.link a,
+a:visited {
     color: #00FF00;
 }
+
 .link a:hover {
     text-decoration: none;
     color: #17AC77;
 }
+
 footer {
     background-color: #131A2B;
 }
-footer .container{
+
+footer .container {
     border: none;
 }
-footer .credits{
+
+footer .credits {
     display: flex;
     align-items: center;
     padding: 15px;
 }
+
 .credits a img {
     margin-left: 10px;
     width: 30px;
+}
+
+@media only screen and (max-width: 1130px) {
+    .fotos img {
+        margin: 10px;
+        border: 3px solid #17AC77;
+    }
+
+    .fotos img:hover {
+        border: 5px solid #7CA1AD;
+        box-shadow: 0px 0px 15px #000;
+    }
+
+    .fotos {
+        padding: 0;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+    .fotosEsquerda {
+        width: 100%;
+    }
+
+    .fotoCentro {
+        width: 100%;
+
+    }
+
+    .fotosDireita {
+        width: 100%;
+    }
+
+    .fotosEsquerda img {
+        max-width: 100%;
+    }
+
+    .fotoCentro img {
+        max-width: 100%;
+
+    }
+
+    .fotosDireita img {
+        max-width: 100%;
+    }
 }
